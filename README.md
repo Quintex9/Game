@@ -40,5 +40,5 @@ Táto hra sa odohráva v jednom leveli, ktorý sa neustále mení. Hráč ovlád
 * **Car:** Reprezentuje auto na obrazovke. Náhodne vyberá auto zo zoznamu obrázkov, nastaví jeho pohyb vpravo alebo vľavo a sleduje jeho pozíciu. Ak sa auto dostane mimo obrazovky, odstráni sa.
 * **Player:** Reprezentuje hráča. Obsahuje animácie pre pohyb hráča v rôznych smeroch, spravuje vstupy od hráča (pohyb, skoky), detekuje kolízie so spritmi a upravuje pozíciu hráča na základe fyziky.
 * **Timer & Hudba:** Nastavuje časovač a prehráva hudbu na pozadí, pričom pravidelne vytvára nové autá, až kým ich počet nepresiahne 5.
+
 **Tento návrh tried robí hru rozšíriteľnú a udržiavateľnú, pričom jednotlivé triedy majú jasne definované zodpovednosti, ako napríklad správa pohybu, kolízií, animácií a herných objektov.**
-* 
