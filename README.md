@@ -1,6 +1,7 @@
 # Game Design Document - Highway Havoc
 
-Repozitár obsahuje hru "Highway Havoc", ktorá je mojich semestrálnym projektom ku skúške z predmetu "Objektové technológie" na FPVaI, UKF.
+Repozitár obsahuje hru "Highway Havoc", ktorá je mojim semestrálnym projektom ku skúške z predmetu "Objektové technológie" na FPVaI, UKF.
+
 **Autor:** Michal Smatana
 **Zvolená téma:** One level, but constantly changing 
 
@@ -9,7 +10,7 @@ Pre môj projekt som si zvolil tému "One level, but constantly changing". V hre
 ![Snímka hráča na chodníku](fotka.png)
 Snímka hráča na chodníku
 
-**1.1 Inšpirácia**
+<p style="font-size: 30px;"> 1.1 Inšpirácia**</p>
 Téma "One level, but constantly changing" ma zaujala, pretože ako malý som často hrával hru "Crossy road", kde hráte za sliepku a váš cieľ je sa dostať do cieľa a vyhýbať sa všetkým autám. Tento repozitár obsahuje prototyp jednoduchšej verzie hernej mechaniky.
 ![crossyRoad](crossyRoad.png)
 Moja inšpirácia
