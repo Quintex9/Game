@@ -43,7 +43,6 @@ player = Player((2062,6000),sprites,obstacles)
 
 #hudba
 hudba = pygame.mixer.Sound('../audio/music.mp3')
-hudba.set_volume(20)
 hudba.play(loops=-1)
 
 #timer
