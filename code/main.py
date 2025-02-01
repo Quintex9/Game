@@ -44,7 +44,7 @@ display = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Hihi")
 clock = pygame.time.Clock()
 
-player = Player((2062, 2200), sprites, obstacles)
+player = Player((2062, 3500), sprites, obstacles)
 
 # Hudba
 #hudba = pygame.mixer.Sound('../audio/music.mp3')
