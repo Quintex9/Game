@@ -44,7 +44,7 @@ display = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
 pygame.display.set_caption("Hihi")
 clock = pygame.time.Clock()
 
-player = Player((2062, 7500), sprites, obstacles)
+player = Player((1700, 12500), sprites, obstacles)
 
 # Hudba
 #hudba = pygame.mixer.Sound('../audio/music.mp3')
@@ -53,7 +53,7 @@ player = Player((2062, 7500), sprites, obstacles)
 
 # Timer
 timer = pygame.event.custom_type()
-pygame.time.set_timer(timer, 20)
+pygame.time.set_timer(timer, 25)
 
 pozicie = []
 
@@ -90,13 +90,13 @@ while True:
             if pozicia_auta not in pozicie:
                 pozicie.append(pozicia_auta)
                 Car(pozicia_auta, [sprites, obstacles])
-            if len(pozicie) > 15:
+            if len(pozicie) > 12:
                 del pozicie[0]
 
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_r and player.game_over:
                 player.game_over = False
-                player.position = pygame.math.Vector2(2062, 6000)
+                player.position = pygame.math.Vector2(1700, 12500)
                 player.direction = pygame.math.Vector2()
                 #hudba.play(loops=-1)
                 pozicie.clear()

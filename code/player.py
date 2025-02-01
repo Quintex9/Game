@@ -29,10 +29,10 @@ class Player(pygame.sprite.Sprite):
             self.position.x = 2560 - self.rect.width/2
             self.hitbox.right = 2560
             self.rect.right = 2560
-        if self.rect.bottom > 8850:
-            self.position.y = 8850 - self.rect.height/2
+        if self.rect.bottom > 12600:
+            self.position.y = 12600 - self.rect.height/2
             self.hitbox.centery = self.rect.centery
-            self.rect.bottom = 8850
+            self.rect.bottom = 12600
 
     def collision(self,dir):
         if dir == 'horizontalne':
