@@ -5,6 +5,7 @@ class Player(pygame.sprite.Sprite):
     def __init__(self,position,groups,collisions):
         super().__init__(groups)
         self.game_over = False
+        self.won = False
 
         self.obrazky()
         self.index = 0
